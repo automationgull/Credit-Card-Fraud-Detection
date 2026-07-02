@@ -1,0 +1,12 @@
+# Python
+.venv/
+
+# PyCharm
+.idea/
+
+# Dataset
+data/creditcard.csv
+
+# Python cache
+__pycache__/
+*.pyc
