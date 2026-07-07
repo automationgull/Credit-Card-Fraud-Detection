@@ -4,8 +4,8 @@ import joblib
 
 st.title("Credit Card Fraud Detection App")
 
-model = joblib.load(r"D:\Pycharm\Fraude-Detector.Project\models\random_forest_model.pkl")
-scaler = joblib.load(r"D:\Pycharm\Fraude-Detector.Project\models\scaler.pkl")
+model = joblib.load("models/random_forest_model.pkl")
+scaler = joblib.load("models/scaler.pkl")
 
 uploaded_file = st.file_uploader("Upload transaction CSV file", type=["csv"])
 
